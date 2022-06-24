@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="assets/_css/index.css">
+</head>
+
+<body>
+    <h1>Cronômetro</h1>
+    <div class="insert">
+        <h2>Insira os valores:</h2>
+        <div class="time-set">
+            <input type="number" name="horas" id="inp-hours" placeholder="Horas" class="input" min="0">
+            <input type="number" name="minutos" id="inp-minutes" placeholder="Minutos" class="input" min="0" max="60">
+            <input type="number" name="segundos" id="inp-seconds" placeholder="segundos" class="input" min="0" max="60">
+        </div>
+        <button class="btn" onclick="getTime()">Confirmar</button>
+
+    </div>
+    <div class="wrapper ">
+        <h2>Relogio</h2>
+        <div class="clock ">
+            <div class="timer ">
+
+                <h3 id="hours">00</h3>
+            </div>
+            <h5>:</h5>
+            <div class="timer ">
+
+                <h3 id="minutes">00</h3>
+            </div>
+            <h5>:</h5>
+            <div class="timer ">
+
+                <h3 id="seconds">00</h3>
+            </div>
+        </div>
+
+        <button class="btn" onclick="iniciar()">Iniciar</button>
+    </div>
+    <script src="assets/_js/index.js "></script>
+</body>
+
+</html>

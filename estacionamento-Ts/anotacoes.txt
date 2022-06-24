@@ -1,0 +1,5 @@
+Primeiro passo para utilizar o TypeScript é utilizar o código no terminal
+npx -p typescript tsc --init dentro do diretório que o projeto será armazenado
+
+Os scripts ts não são reconhecidos pelo navegador sendo necessário utilizar um transpilador.
+Para realizar essa transpilação utiliza-se o comando npx -p typescript tsc
